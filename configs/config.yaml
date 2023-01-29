@@ -1,0 +1,11 @@
+server:
+  name: "hertz_demo"
+  port: 8888
+pgsql:
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  password: "123456"
+  dbname: "test"
+  max_open_conns: 200
+  max_idle_conns: 50
